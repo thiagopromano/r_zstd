@@ -36,7 +36,7 @@ defmodule RZstd.MixProject do
     [
       {:benchee, "~> 1.0", only: :dev},
       {:unsafe, "~> 1.0", runtime: false},
-      {:rustler, "~> 0.22.0-rc.1"},
+      {:rustler, "~> 0.25"},
       {:ex_doc, "~> 0.24.2", only: [:dev, :docs], runtime: false},
       {:excoveralls, "~> 0.13", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.0", only: [:dev, :test], runtime: false},
